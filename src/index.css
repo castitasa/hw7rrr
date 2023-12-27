@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    /* color: white; */
+}
+.title{
+    text-align: start;
+    width: 80%;
+    margin: auto;
+}
+form{
+    width: 80%;
+    margin: auto;
+    text-align: start;
+}
+input{
+    display: block;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+label{
+    display: block;
+    margin-top: 15px;
+}
+button{
+    width: 120px;
+    height: 30px;
+    background: blue;
+    border: none;
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+table{
+    width: 80% !important;
+    margin: auto;
+}
+/* th,td{
+    border: 1px solid white;
+    margin: 0;
+    padding: 0;
+} */
+table, th, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+tr{
+    background: none !important;
+}
